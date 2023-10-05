@@ -29,7 +29,7 @@ class StartingScreen extends StatelessWidget {
           onPressed: () {},
           style: OutlinedButton.styleFrom(
               foregroundColor: Colors.white,
-              side: BorderSide(color: Colors.white)),
+              side: const BorderSide(color: Colors.white)),
           child: const Text('Start Quiz'),
         ),
       ],
