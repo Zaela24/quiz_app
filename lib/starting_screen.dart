@@ -4,6 +4,7 @@ class StartingScreen extends StatelessWidget {
   const StartingScreen(this.startQuiz, {super.key});
 
   final void Function() startQuiz;
+
   @override
   Widget build(context) {
     return Center(
