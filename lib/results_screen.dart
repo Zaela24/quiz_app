@@ -65,7 +65,7 @@ class ResultsScreen extends StatelessWidget {
                 foregroundColor: Colors.white,
                 side: const BorderSide(color: Colors.white),
               ),
-              icon: const Icon(Icons.restart_alt),
+              icon: const Icon(Icons.refresh),
               label: Text(
                 'Restart',
                 style: GoogleFonts.lato(
